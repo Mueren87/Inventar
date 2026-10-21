@@ -1,10 +1,7 @@
-// Trage hier deine Supabase-Daten ein (siehe ANLEITUNG.md, Schritt 2).
-// Diese Werte sind öffentlich – sie dürfen auf GitHub liegen.
+// Supabase-Verbindung für den Küchenbestand
 window.KB_CONFIG = {
-  SUPABASE_URL: "https://DEIN-PROJEKT.supabase.co",
-  SUPABASE_KEY: "DEIN-ANON-ODER-PUBLISHABLE-KEY",
-  // Öffentlicher VAPID-Schlüssel für Push-Meldungen (steht in VAPID-SCHLUESSEL.txt)
+  SUPABASE_URL: "https://eujraxtespziyrqkfwut.supabase.co",
+  SUPABASE_KEY: "sb_publishable_-C3WYozpXv6dOBY-brpDCA_iWRrxBJF",
   VAPID_PUBLIC_KEY: "BFSyYeGdefB0ivrTWvHazdryUyw9V5OXfGilq0-eKWDzV6rYDr3aqY0IcLQmkmqsuzyYsfmX8LVdqMMX0dXs4EU",
-  // Ab wie vielen Tagen vor Ablauf gewarnt wird
   WARN_DAYS: 7
 };
